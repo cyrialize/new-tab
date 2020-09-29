@@ -48,7 +48,7 @@ $(document).ready(function() {
 
     $('#light-switch').click(function() {
 
-        let href = $('#theme').attr('href') ? '' : 'dark-theme.css';
+        let href = $('#theme').attr('href') === 'light-theme.css' ? 'dark-theme.css' : 'light-theme.css';
         $('#theme').attr('href', href);
 
         let text = href === 'dark-theme.css' ? 'Lights On!' : 'Lights Off!';
