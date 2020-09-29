@@ -10,9 +10,7 @@ $(document).ready(function() {
 
     let tasksCookie = Cookies.get('tasks');
     let tasks =  tasksCookie ? JSON.parse(tasksCookie) : [];
-    console.log(tasks);
     for (let i = 0; i < tasks.length; i++) {
-        console.log(tasks[i]);
         addTask(tasks[i]);
     }
 
@@ -46,5 +44,14 @@ $(document).ready(function() {
         });
 
         Cookies.set('tasks', JSON.stringify(tasks));
+    });
+
+    $('#light-switch').click(function() {
+
+        let href = $('#theme').attr('href') ? '' : 'dark-theme.css';
+        $('#theme').attr('href', href);
+
+        let text = href === 'dark-theme.css' ? 'Lights On!' : 'Lights Off!';
+        $(this).text(text);
     });
 });
