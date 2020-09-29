@@ -1,0 +1,16 @@
+#task-template {
+    display: none;
+}
+
+
+.pure-g {
+    height: 100%;
+}
+
+.side-col {
+    background-color: grey;
+}
+
+#main-content {
+    margin: 1rem;
+}
