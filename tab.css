@@ -2,15 +2,18 @@
     display: none;
 }
 
-
-.pure-g {
-    height: 100%;
-}
-
-.side-col {
-    background-color: grey;
-}
-
 #main-content {
     margin: 1rem;
+}
+
+#task-button-group {
+    margin-top: 1rem;
+}
+
+#clear {
+    margin-top: 1rem;
+}
+
+#light-switch {
+    margin-bottom: 1rem;
 }

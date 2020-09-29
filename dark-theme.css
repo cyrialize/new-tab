@@ -1,0 +1,19 @@
+/*
+* Primary:   #232931;
+* Secondary: #393e46;
+* Light:     #eeeeee;
+* Highlight: #4ecca3;
+*/
+
+body {
+    background-color: #232931;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #eeeeee;
+}
+
+.pure-button {
+    color: #eeeeee;
+    background-color: #393e46;
+}
